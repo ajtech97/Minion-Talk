@@ -1,11 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minion Talk</title>
+    <link rel="stylesheet" href="./styles.css" type="text/css">
+
 </head>
+
 <body>
-    <h1>Minion Talk</h1>
+    <nav class="navigation container">
+        <div class="nav-brand">Minion Talk</div>
+    </nav>
+    
+    <header class="hero">
+        <div class="container container-center">
+            <textarea id="txt-input" placeholder="Enter text to convert it into Minion-Text"></textarea>
+        </div>
+        <div class="container container-center">
+            <button id="btn-translate">Cilck me</button>
+        </div>
+        <div class="container container-center">
+            <textarea id="txt-output"></textarea>
+         </div>
+    </header>
+
+    <script src="app.js"></script>
 </body>
+
 </html>

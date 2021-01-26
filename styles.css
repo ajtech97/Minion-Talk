@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
+
+:root{
+    --primary-color: white;
+    --secondary-color: #ffc60a;
+}
+
+body{
+    margin: 0rem;
+    font-family: 'Knewave', cursive;
+    background-image: url("./images/one.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: 70rem; */
+    background-attachment: fixed;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.container {
+    padding: 0rem 1rem;
+}
+.container-center { 
+    max-width: 500px;
+    margin: auto;
+    padding: 2rem 2rem;
+}
+.navigation,.footer {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 3rem;
+    font-size: 40px;
+}
+.nav-brand,.footer-brand {
+    text-align: center;
+}
+
+
+.hero {
+    padding: 2rem;
+    padding-top: 5rem;
+
+}
+textarea{
+    padding: 4.5rem;
+    width: 60%;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: 0px;
+    font-size: large;
+}
+button{
+    padding: 1rem 2rem;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: 0px;
+    font-size: large;
+} 
+
+
+
