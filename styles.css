@@ -11,10 +11,7 @@ body{
     background-image: url("./images/one.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-size: 70rem; */
     background-attachment: fixed;
-    overflow-y: hidden;
-    overflow-x: hidden;
 }
 
 .container {
