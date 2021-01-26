@@ -15,12 +15,12 @@ body{
 }
 
 .container {
-    padding: 0rem 1rem;
+    padding: 0rem 0rem;
 }
 .container-center { 
     max-width: 500px;
     margin: auto;
-    padding: 2rem 2rem;
+    padding: 2rem 0rem;
 }
 .navigation,.footer {
     background-color: var(--secondary-color);
@@ -39,7 +39,7 @@ body{
 
 }
 textarea{
-    padding: 4.5rem;
+    padding: 4rem;
     width: 60%;
     text-align: center;
     font-family: 'Press Start 2P', cursive;
